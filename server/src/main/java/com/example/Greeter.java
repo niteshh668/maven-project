@@ -27,7 +27,7 @@ public class Greeter {
  * @return      the image at the specified URL
  * @see         Image
  */
-  public String greet(String final someone) {
+  public String greet(final String  someone) {
     return String.format("Hello, %s!", someone);
   }
 }
